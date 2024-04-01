@@ -15,7 +15,7 @@ class MyButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(8),
         ),
         padding: const EdgeInsets.all(25),
-        child: const Center(child: Text('TAP')),
+        child: const Center(child: Icon(Icons.light)),
       ),
     );
   }
